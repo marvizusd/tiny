@@ -1,7 +1,24 @@
-# @marvizusd/tiny
+[![npm (scoped)](https://img.shields.io/npm/v/@marvizusd/tiny.svg)](https://github.com/marvizusd/tiny)
+@marvizusd/tiny)
 
-[![npm(scoped)]
-(https://img.shields.io/npm/v/@marvizusd/tiny.svg)]
-(https://github.com/marvizusd/tiny)
+Removes all spaces from a string.
 
-It's the tiniest
+## Install
+
+```
+$ npm install @marvizusd/tiny
+```
+
+## Usage
+
+```js
+const tiny = require("@marvizusd/tiny");
+
+tiny("So much space!");
+//=> "Somuchspace!"
+
+tiny(1337);
+//=> Uncaught TypeError: Tiny wants a string!
+//    at tiny (<anonymous>:2:41)
+//    at <anonymous>:1:1
+```
