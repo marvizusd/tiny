@@ -1,4 +1,5 @@
 [![npm (scoped)](https://img.shields.io/npm/v/@marvizusd/tiny.svg)](https://github.com/marvizusd/tiny)
+[![install size](https://packagephobia.now.sh/badge?p=@marvizusd/tiny)](https://packagephobia.now.sh/result?p=@marvizusd/tiny)
 @marvizusd/tiny
 
 Removes all spaces from a string.
